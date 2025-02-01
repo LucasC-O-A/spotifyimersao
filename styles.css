@@ -23,10 +23,89 @@ h1{
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
-.logo img {
+.sidebar__navigation .logo {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+.sidebar__navigation .logo img {
 width: 80px;
 }
 .sidebar nav ul {
     margin-top: 20px;
     padding: 0 20px 10px 20px;
 }
+.sidebar nav li{
+    padding: 10px 0;
+}
+
+.sidebar nav ul a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family:"DM Sans", sans-serif;
+
+}
+.library{
+    background-color: #121212;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 4px 8px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.library .library__content{
+    display: flex;
+    justify-content: space-between;
+}
+.library .library__button{
+    margin-right: 10px;
+    color: #b3b3b3;
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    font-weight: 700;
+    font-family:"DM Sans", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    padding: 20px 10px;
+    display: flex;
+}
+.library .library__button .fa{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: 300;
+    padding-right: 80px;
+}
+.library .library__content .fa-plus{
+    margin: 24px 10px;
+}
+.seletion-playlist{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #242424;
+    gap: 20px;
+    color: #b3b3b3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+
+}
+.seletion-playlist .seletion-playlist__content{
+    display: flex;
+    flex-direction: column;
+}
+.seletion-playlist__content .text{
+    padding-bottom: 14px;
+    color: #fff;
+}
+    
